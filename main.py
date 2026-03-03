@@ -1,6 +1,6 @@
 from exa_py import Exa
 
-exa = Exa('2eaab939-9536-4647-81ea-be50a75fda94')
+exa = Exa('YOUR_EXA_API_KEY')
 
 query = input('Search here: ')
 
@@ -19,3 +19,4 @@ for result in response.results:
     print(f'Title: {result.title}')
     print(f'URL: {result.url}')
     print()
+
